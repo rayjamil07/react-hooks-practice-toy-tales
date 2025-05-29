@@ -1,6 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function ToyForm() {
+  const [newToy, setNewToys] = React.useState([]);
+
+  const toyObject = {
+    toys: {
+      name: "New Toy",
+      image: "https://example.com/toy.jpg",
+    }
+  }
+
+  useEffect(() => {
+    fetch("http://localhost:3001/toys", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        toyObj: toyObject
+      }),
+    })
+      .then((response) => response.json())
+      .then((toys) => setNewToys((toy) => [...toys, newToy]))
+      .catch((error) => console.error("Error creating toy:", error));
+  }, [])
+
   return (
     <div className="container">
       <form className="add-toy-form">
