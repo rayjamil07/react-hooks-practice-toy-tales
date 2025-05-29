@@ -1,12 +1,13 @@
 import React from "react";
 import ToyCard from "./ToyCard";
 
-function ToyContainer({ onDeleteToy, toys = [] }) {
+function ToyContainer({ onDeleteToy, onLikeToy, toys = [] }) {
   const toyCard = toys.map((toy) => {
     return <ToyCard
       toy={toy}
       key={toy.id}
       onDeleteToy={onDeleteToy}
+      onLikeToy={onLikeToy}
     />
   })
 
