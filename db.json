@@ -47,6 +47,51 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "newToy": {
+        "toys": {
+          "name": "New Toy",
+          "image": "https://example.com/toy.jpg"
+        }
+      },
+      "id": 9
+    },
+    {
+      "name": "Buzz",
+      "image": "git@github.com:rayjamil07/react-hooks-practice-toy-tales.git",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "Buzz",
+      "image": "git@github.com:rayjamil07/react-hooks-practice-toy-tales.git",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "name": "Buzz",
+      "image": "git@github.com:rayjamil07/react-hooks-practice-toy-tales.git",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "name": "Buzz",
+      "image": "git@github.com:rayjamil07/react-hooks-practice-toy-tales.git",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "name": "Buzz",
+      "image": "git@github.com:rayjamil07/react-hooks-practice-toy-tales.git",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "name": "Buzz",
+      "image": "git@github.com:rayjamil07/react-hooks-practice-toy-tales.git",
+      "likes": 0,
+      "id": 15
     }
   ]
 }
